@@ -1,0 +1,36 @@
+index,topic,constraint,type,mode
+0,Write down examples of {}.,Continue listing them but do not include examples of {}.,begin+end,train
+1,Below we show examples of {1}.,"Following these examples, keep listing but don’t mention {0}.",begin,train
+2,The above showed examples of {1}.,Now list more examples but don’t mention {0}.,end,train
+3,Generate examples that are under the category of {}.,Now keep generating but exclude anything that's in the category of {}.,begin+end,dev
+4,List out examples of {1}:,"Right after these examples, continue listing but avoid mentioning {0}.",begin,dev
+5,The above are sentences describing {1}.,Now write similar sentences as the above while omitting any mention of {0}.,end,dev
+6,Generate examples about {}:,Now generate more examples but refrain from generating {}.,begin+end,test
+7,"Task: write down three examples of {1}.,",and after the three examples keep writing more but don’t refer to any {0}.,begin,test
+8,The above sentences are examples of {1}.,Your task is to list more sentences but exclude mentions of {0}.,end,test
+9,Make a list of {}.,Do not list any {}.,begin+end,test
+10,Give me a list of {}.,Extend the list which does not pertain to {}.,begin+end,test
+11,Listed below are examples of {1}.,"Keep going down this list, but don't include any {0}.",begin,test
+12,Examples of {1} are shown below.,"List more examples, but don't mention {0} this time.",begin,test
+13,There are examples of {1} below.,Write similar sentences after these that omits mention of {0}.,begin,test
+14,The examples provided were of {1}.,provide additional examples without referring to the constraint {0}.,end,test
+15,The examples given were of different instances of {1}.,give more examples that don't go against the original constraint {0}.,end,test
+16,The examples illustrated were of {1}.,list more examples that don't bring up {0}.,end,test
+17,The aforementioned showed examples of {1}.,Write similar sentences omitting any mention of {0}.,end,test
+18,Create examples for {}.,"Keep generating ideas, but don't include anything that falls under the category of {}.",begin+end,test
+19,Make up examples for {}.,"Keep coming up with ideas, but don't include anything that would fit under {}.",begin+end,test
+20,Come up with examples for {}.,"Keep brainstorming, but don't write down anything that could be classified as {}.",begin+end,test
+21,Provide a list of examples for {1}.,"After these examples, keep going but don't mention {0}.",begin,test
+22,Give a list of examples for {1}.,"After these examples, continue listing but avoid mentioning {0}.",begin,test
+23,Share a list of examples for {1}.,"Keep listing after these examples, but don't mention {0}.",begin,test
+24,A list of examples for {1} is as follows:,"List more examples after these, but don't mention {0}.",begin,test
+25,The sentences above describe {1}.,Write similar sentences without mentioning {0}.,end,test
+26,The foregoing sentences describe {1}.,Write similar sentences while omitting mention of {0}.,end,test
+27,These sentences describe {1}.,Write similar sentences that does not mention {0}.,end,test
+28,Above are sentences of {1}.,Your task is to list more sentences without mentioning {0}.,end,test
+29,The sentences below show instances of {1}.,Your goal is to list more instances that don't mention {0}.,end,test
+30,The sentences below are examples of {1}.,Your task is to enumerate more of them which don't mention {0}.,end,test
+31,The sentences below are examples of {1}.,Your task is to list more sentences that do not mention {0}.,end,test
+32,Write down examples of {}.,"Generate more examples, but don't create any that include {}.",begin+end,test
+33,"Given the topic {}, write down three examples:","Write down more examples, but don't mention {} in any of them.",begin+end,test
+34,Come up with instances of the topic {}.,"Come up with more examples, but keep {} out of them.",begin+end,test
