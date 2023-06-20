@@ -25,7 +25,7 @@ python -m nltk.downloader wordnet
 ## Cognac Benchmark
 
 ### WordNet
-Download the WordNet data [here](https://drive.google.com/file/d/17mpi7fufaKVEvGdNMAsY_ZBit1FwER7z/view?usp=drive_link). The folder contains files `train.jsonl`, `dev.jsonl`, and `test.jsonl` that include instances of instructions with topics and constraints. The file `topic_to_leafs.json` contains the WordNet hierarchy (used to verify if the generation is conformant). The data is loaded in the code [here]().
+Download the WordNet data [here](https://drive.google.com/file/d/17mpi7fufaKVEvGdNMAsY_ZBit1FwER7z/view?usp=drive_link). The folder contains files `train.jsonl`, `dev.jsonl`, and `test.jsonl` that include instances of instructions with topics and constraints. The file `topic_to_leafs.json` contains the WordNet hierarchy (used to verify if the generation is conformant). The data is loaded in the code [here](https://github.com/princeton-nlp/Cognac/blob/main/src/utils.py#L239).
 
 ### Wikidata
 Coming soon...
