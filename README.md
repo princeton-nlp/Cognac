@@ -42,7 +42,7 @@ Stage 2: The guidance model (blue LM & the tuned prefixes) generates guidance ex
 
 ### Overall Structure
 The main run script is `main.py`.
-The hyperparameters are described below:
+Some important hyperparameters are described below:
 - `eval_version`: determining if control code or natural language instruction is used as context
 - `guidance`: the combination of guidances to use. `in` means the inclusion of topic is applied. `ex` means the exclusion of constraint is applied. `wd` (weighted decoding) is used in CognacGen. Other options are also available such as 
 - `guidance_model_type`: guidance type to use for constraint exclusion; `discrete` is "Textual Guidance", `full` is "Top-K Token", and `binary` is "Binary Verifier" described in the paper
