@@ -1,0 +1,8 @@
+pyyaml
+torch
+alive-progress
+transformers
+spacy
+nltk
+numpy
+rich
